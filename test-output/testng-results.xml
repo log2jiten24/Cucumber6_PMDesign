@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4540" started-at="2021-01-31T12:18:01Z" finished-at="2021-01-31T12:18:05Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallelpackage.Cucumber_TestNG_ParallelRunner@6d7b4f4c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="4540" started-at="2021-01-31T12:18:01Z" finished-at="2021-01-31T12:18:05Z">
+      <class name="parallelpackage.Cucumber_TestNG_ParallelRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:parallelpackage.Cucumber_TestNG_ParallelRunner@6d7b4f4c]" name="setUpClass" is-config="true" duration-ms="645" started-at="2021-01-31T12:18:01Z" finished-at="2021-01-31T12:18:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:parallelpackage.Cucumber_TestNG_ParallelRunner@6d7b4f4c]" name="tearDownClass" is-config="true" duration-ms="3866" started-at="2021-01-31T12:18:02Z" finished-at="2021-01-31T12:18:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- parallelpackage.Cucumber_TestNG_ParallelRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
