@@ -7,9 +7,11 @@ Given User is on the homepage login
 When  User gets the title of the Home page 
 Then  Page title should be "Login - My Store"
 
+@Skip_Scenario
 Scenario: Forgot Password Link Verification 
 Given User is on the homepage login 
 Then  Forgot Your Password Link should be displayed 
+
 
 Scenario: Login with Correct Login  Credentials  
 Given User is on the homepage login 

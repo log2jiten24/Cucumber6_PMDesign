@@ -2,6 +2,7 @@ package com.Application.hooks;
 
 import java.util.Properties;
 
+import org.junit.Assume;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -24,7 +25,17 @@ public class ApplicationHooks {
 	 * @Before(order = 0 , first method will get executed , then the order = 1 will
 	 * get executed ).
 	 */
-	@Before(order = 0)
+	
+	@Before(value = "@Skip_Scenario" , order = 0)
+	public void Skip_Scenario(Scenario scenario) {
+		
+		System.out.println ("Skipped Scenario is :" + scenario.getName());
+		
+		Assume.assumeTrue(false);
+		
+	}
+	
+	@Before(order = 1)
 	public void getPropety() {
 
 		configreader = new ConfigReader();
@@ -33,7 +44,7 @@ public class ApplicationHooks {
 
 	}
 
-	@Before(order = 1)
+	@Before(order = 2)
 	public void launchbrowser() {
 
 		String browser_name = prop.getProperty("browser");

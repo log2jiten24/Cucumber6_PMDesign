@@ -1,48 +1,37 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "b00065bb-844d-47a4-9eb1-9e38bdc9c21e",
-    "feature": "To test the ContactUs Feature testing.",
-    "scenario": "To test the ContactUs Feature link with different sets of test Data",
-    "start": 1612095609426,
+    "id": "2d9a64f9-2d31-4e5b-8728-5ebe1787bd4d",
+    "feature": "LoginPage- verification",
+    "scenario": "LoginPage title verification",
+    "start": 1613050545749,
     "group": 1,
     "content": "",
-    "tags": "@contactus,",
-    "end": 1612095623893,
+    "tags": "",
+    "end": 1613050559674,
     "className": "passed"
   },
   {
-    "id": "88b53ec3-9872-4546-a133-634451391012",
-    "feature": "To test the ContactUs Feature testing.",
-    "scenario": "To test the ContactUs Feature link with different sets of test Data",
-    "start": 1612095591806,
+    "id": "bbd08917-97eb-43b1-a4eb-423ac13ae52e",
+    "feature": "LoginPage- verification",
+    "scenario": "Login with Correct Login  Credentials",
+    "start": 1613050563166,
     "group": 1,
     "content": "",
-    "tags": "@contactus,",
-    "end": 1612095609409,
-    "className": "passed"
+    "tags": "",
+    "end": 1613050587652,
+    "className": "failed"
   },
   {
-    "id": "7f79e09d-a7d9-480a-b801-5d5982f08bd8",
-    "feature": "To test the ContactUs Feature testing.",
-    "scenario": "To test the ContactUs Feature link with different sets of test Data",
-    "start": 1612095638113,
+    "id": "a888b4b5-6264-458b-a7d4-050fc86d8361",
+    "feature": "LoginPage- verification",
+    "scenario": "Forgot Password Link Verification",
+    "start": 1613050559693,
     "group": 1,
     "content": "",
-    "tags": "@contactus,",
-    "end": 1612095653757,
-    "className": "passed"
-  },
-  {
-    "id": "e80e8c56-89eb-4e8c-82c3-360fb1ead3f1",
-    "feature": "To test the ContactUs Feature testing.",
-    "scenario": "To test the ContactUs Feature link with different sets of test Data",
-    "start": 1612095623921,
-    "group": 1,
-    "content": "",
-    "tags": "@contactus,",
-    "end": 1612095638087,
-    "className": "passed"
+    "tags": "@skip_scenario,",
+    "end": 1613050563141,
+    "className": "skipped"
   }
 ]);
 CucumberHTML.timelineGroups.pushArray([

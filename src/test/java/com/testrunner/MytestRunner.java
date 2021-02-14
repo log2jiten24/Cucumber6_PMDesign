@@ -9,11 +9,11 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		
-		features = {"src/test/resources/AppFeatures/ContactUs.feature"} ,
+		features = {"src/test/resources/AppFeatures/LoginPage.feature"} ,
 		glue = {"com.stepdefinitions", "com.Application.hooks"} ,
 		plugin = {"pretty", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:", "timeline:test-output-thread/"},
 		monochrome = true,
-		dryRun = true
+		dryRun = false
 		 
 		)
 

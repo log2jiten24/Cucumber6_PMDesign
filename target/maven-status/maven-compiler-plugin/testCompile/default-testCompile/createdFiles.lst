@@ -7,4 +7,5 @@ parallelpackage\ApplicationHooks.class
 com\stepdefinitions\Login_StepDefintions.class
 com\stepdefinitions\ContactUsStepDefinitions.class
 com\Application\hooks\ApplicationHooks.class
+com\testrunner\MySerenityRunner.class
 com\testrunner\MytestRunner2.class
