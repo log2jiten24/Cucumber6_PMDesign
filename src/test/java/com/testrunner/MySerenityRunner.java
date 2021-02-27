@@ -11,7 +11,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 		features = {"src/test/resources/AppFeatures"} ,
 		glue = {"com.stepdefinitions", "com.Application.hooks"} ,
 		plugin = {"pretty"},
-	   // tags = "@ContactUs",
+	    tags = "@ContactUs",
 		monochrome = true,
 		dryRun = false
 		)
