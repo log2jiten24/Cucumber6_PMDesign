@@ -1,74 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="2" total="3" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22529" started-at="2021-02-27T13:08:16Z" finished-at="2021-02-27T13:08:39Z">
+  <suite name="Default suite" duration-ms="32020" started-at="2022-01-07T06:55:10Z" finished-at="2022-01-07T06:55:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22529" started-at="2021-02-27T13:08:16Z" finished-at="2021-02-27T13:08:39Z">
-      <class name="allyTests.AmazonAllyTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:allyTests.AmazonAllyTest@429bd883]" name="setup" is-config="true" duration-ms="11242" started-at="2021-02-27T13:08:16Z" finished-at="2021-02-27T13:08:27Z">
+    <test name="Default test" duration-ms="32020" started-at="2022-01-07T06:55:10Z" finished-at="2022-01-07T06:55:42Z">
+      <class name="seleniumcodingchallenge.CalendarHandling">
+        <test-method status="PASS" signature="tripodeCalendarHandling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:seleniumcodingchallenge.CalendarHandling@1a052a00]" name="tripodeCalendarHandling" duration-ms="242" started-at="2022-01-07T06:55:10Z" data-provider="departDate" finished-at="2022-01-07T06:55:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[April]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2021]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="amazonAllyTestwithWebElement()[pri:0, instance:allyTests.AmazonAllyTest@429bd883]" name="amazonAllyTestwithWebElement" duration-ms="10446" started-at="2021-02-27T13:08:27Z" finished-at="2021-02-27T13:08:38Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Found 1 accessibility violations:
-1) Elements must have sufficient color contrast: https://dequeuniversity.com/rules/axe/3.1/color-contrast?application=axeAPI
-  a) ["._1_3w1N"]
-    Fix any of the following:
-      Element has insufficient color contrast of 4.33 (foreground color: #2874f0, background color: #ffffff, font size: 12.0pt, font weight: normal). Expected contrast ratio of 4.5:1
-
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Found 1 accessibility violations:
-1) Elements must have sufficient color contrast: https://dequeuniversity.com/rules/axe/3.1/color-contrast?application=axeAPI
-  a) ["._1_3w1N"]
-    Fix any of the following:
-      Element has insufficient color contrast of 4.33 (foreground color: #2874f0, background color: #ffffff, font size: 12.0pt, font weight: normal). Expected contrast ratio of 4.5:1
-
-
-at org.junit.Assert.fail(Assert.java:89)
-at org.junit.Assert.assertTrue(Assert.java:42)
-at allyTests.AmazonAllyTest.amazonAllyTestwithWebElement(AmazonAllyTest.java:89)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- tripodeCalendarHandling -->
+        <test-method status="PASS" signature="tripodeCalendarHandling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:seleniumcodingchallenge.CalendarHandling@1a052a00]" name="tripodeCalendarHandling" duration-ms="4" started-at="2022-01-07T06:55:10Z" data-provider="departDate" finished-at="2022-01-07T06:55:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[March]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2024]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- amazonAllyTestwithWebElement -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:allyTests.AmazonAllyTest@429bd883]" name="tearDown" is-config="true" duration-ms="804" started-at="2021-02-27T13:08:38Z" finished-at="2021-02-27T13:08:39Z">
+        </test-method> <!-- tripodeCalendarHandling -->
+        <test-method status="PASS" signature="tripodeCalendarHandling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:seleniumcodingchallenge.CalendarHandling@1a052a00]" name="tripodeCalendarHandling" duration-ms="31726" started-at="2022-01-07T06:55:10Z" data-provider="departDate" finished-at="2022-01-07T06:55:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[August]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2022]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- allyTests.AmazonAllyTest -->
+        </test-method> <!-- tripodeCalendarHandling -->
+      </class> <!-- seleniumcodingchallenge.CalendarHandling -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -7,12 +7,13 @@ Given User has already logged into the Application
 |username|password|
 |log2jiten24@gmail.com|jeet47900|
 
-
+@AccountPage
 Scenario: Account Page Title Verification 
 Given User is on the Accounts  Page 
 When  User verifies the title of the Account Page 
 Then  Page title should be "My account - My Store"
 
+@AccountPage
 Scenario: Account  Section Count verification 
 Given User is on the Accounts  Page
 Then  User gets lands on the Account Section page 
