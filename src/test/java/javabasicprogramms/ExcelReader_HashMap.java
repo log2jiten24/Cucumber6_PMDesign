@@ -11,7 +11,9 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelReader_HashMap {
 
-	public static final String EXCELLOCATION = "./testData/Excel_Reader.xlsx";
+	//public static final String EXCELLOCATION = "./testData/Excel_Reader.xlsx";
+	
+	public static final String EXCELLOCATION = "./testData/Excel_testData.xlsx";
 	private static FileInputStream fis;
 	private static XSSFWorkbook workbook;
 	private static XSSFSheet sheet;
@@ -25,7 +27,7 @@ public class ExcelReader_HashMap {
 		fis = new FileInputStream(file);
 
 		workbook = new XSSFWorkbook(fis);
-		sheet = workbook.getSheet("Sheet1");
+		sheet = workbook.getSheet("ContactUS");
 		fis.close();
 
 	}
@@ -81,11 +83,16 @@ public class ExcelReader_HashMap {
 	
 	public static void main (String[] args) throws Exception {
 		
-		System.out.println ("url value is :" +      getValue("baseurl"));
-		System.out.println ("Username value is :" + getValue("Username"));
-		System.out.println ("Lastname value is :" + getValue("LastName"));
-		System.out.println ("Address value is :" +  getValue("Address"));
+//		System.out.println ("url value is :" +      getValue("baseurl"));
+//		System.out.println ("Username value is :" + getValue("Username"));
+//		System.out.println ("Lastname value is :" + getValue("LastName"));
+//		System.out.println ("Address value is :" +  getValue("Address"));
 		
+		
+		System.out.println ("url value is :" +      getValue("SubjectHead"));
+		//System.out.println ("Username value is :" + getValue("Email"));
+		//System.out.println ("Lastname value is :" + getValue("OrderRef"));
+		//System.out.println ("Address value is :" +  getValue("Message"));
 	}
 	
 }

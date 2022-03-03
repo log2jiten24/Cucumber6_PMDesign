@@ -1,76 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32020" started-at="2022-01-07T06:55:10Z" finished-at="2022-01-07T06:55:42Z">
+  <suite name="Default suite" duration-ms="135" started-at="2022-02-12T14:49:44Z" finished-at="2022-02-12T14:49:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32020" started-at="2022-01-07T06:55:10Z" finished-at="2022-01-07T06:55:42Z">
-      <class name="seleniumcodingchallenge.CalendarHandling">
-        <test-method status="PASS" signature="tripodeCalendarHandling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:seleniumcodingchallenge.CalendarHandling@1a052a00]" name="tripodeCalendarHandling" duration-ms="242" started-at="2022-01-07T06:55:10Z" data-provider="departDate" finished-at="2022-01-07T06:55:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[April]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[2021]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="135" started-at="2022-02-12T14:49:44Z" finished-at="2022-02-12T14:49:44Z">
+      <class name="javabasicprogramms.CompareTwoMaps">
+        <test-method status="PASS" signature="compareTwoTables()[pri:0, instance:javabasicprogramms.CompareTwoMaps@770c2e6b]" name="compareTwoTables" duration-ms="87" started-at="2022-02-12T14:49:44Z" finished-at="2022-02-12T14:49:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tripodeCalendarHandling -->
-        <test-method status="PASS" signature="tripodeCalendarHandling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:seleniumcodingchallenge.CalendarHandling@1a052a00]" name="tripodeCalendarHandling" duration-ms="4" started-at="2022-01-07T06:55:10Z" data-provider="departDate" finished-at="2022-01-07T06:55:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[20]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[March]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[2024]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tripodeCalendarHandling -->
-        <test-method status="PASS" signature="tripodeCalendarHandling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:seleniumcodingchallenge.CalendarHandling@1a052a00]" name="tripodeCalendarHandling" duration-ms="31726" started-at="2022-01-07T06:55:10Z" data-provider="departDate" finished-at="2022-01-07T06:55:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[August]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[2022]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tripodeCalendarHandling -->
-      </class> <!-- seleniumcodingchallenge.CalendarHandling -->
+        </test-method> <!-- compareTwoTables -->
+      </class> <!-- javabasicprogramms.CompareTwoMaps -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
